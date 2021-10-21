@@ -3265,7 +3265,7 @@ body.hamburger-menu .header-top {
   pointer-events: auto;
   float: left;
   z-index: 99999;
-  top: 5px;
+  top: 10px;
 }
 
 .header-top .header-container .logo.dark_logo {
@@ -3273,7 +3273,13 @@ body.hamburger-menu .header-top {
 }
 
 .header-top .header-container .logo img {
-  width: 80px;
+  width: 160px;
+}
+
+@media only screen and (max-width: 575px) {
+  .header-top .header-container .logo img {
+    width: 140px;
+  }
 }
 
 .header-top .header-container .menu-icon {
@@ -4451,7 +4457,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
 
 @media only screen and (max-width: 991px) {
   .v-light.nav-active .nav__list-item a {
-    color: #333;
+    color: #fff;
   }
 }
 
@@ -9918,7 +9924,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
     display: none;
   }
   .dsn-slider .dsn-slider-content .slide-content .slide-content-inner .title-text-header .title-text-header-inner {
-    font-size: 55px;
+    font-size: 45px;
   }
   .dsn-slider .footer-slid .main-social,
   .dsn-slider .footer-slid .control-nav {
@@ -9933,7 +9939,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
     padding-right: 20px;
   }
   .dsn-slider .dsn-slider-content .slide-content .slide-content-inner .title-text-header .title-text-header-inner {
-    font-size: 45px;
+    font-size: 30px;
   }
   .dsn-slider .dsn-slider-content .slide-content .slide-content-inner p {
     margin-top: 20px;
